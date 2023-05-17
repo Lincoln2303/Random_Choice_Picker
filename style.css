@@ -1,0 +1,69 @@
+ @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2b88f0;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* NOTE: We use "overflow" on hidden, because we don't want scroll bars to be shown by default */
+    /* overflow: hidden; */
+    margin: 0;
+}
+
+/* I.04. Adding styles to h3: */
+h3 {
+    color: #fff;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+/* I.05. Adding styles to the container: */
+.container {
+    width: 500px;
+}
+
+/* I.06. Adding styles to textarea: */
+#textarea {
+    border: none;
+    /* NOTE: We have to make it as a block level element */
+    display: block;
+    /* NOTE: By making width 100% the textare will go to the border of the container */
+    width: 100%;
+    height: 100px;
+    font-family: inherit;
+    padding: 10px;
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+/* I.07. Adding styles for each tag: */
+.tag {
+    background-color: #f0932b;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* I.08. When it's going to select a tag, it will have a different background-color: (NOTE: add a class to see if it works)*/
+/* AFTER: We're going to add our javascript (section II.) */
+.tag.highlight {
+    background-color: #273c75;
+}
+
+
+
+
+
+
+
+
