@@ -24,10 +24,6 @@ A simple web application that helps you make random choices from a list of optio
 3. Enter your options in the input field, separating each option with a comma.
 4. Click the "Pick Random Choice" button to get a random choice from the entered options.
 
-## Demo
-
-A live demo of the project is available [here](https://lincoln2303.github.io/Random_Choice_Picker/).
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
