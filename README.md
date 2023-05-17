@@ -3,7 +3,7 @@ A simple web application that helps you make random choices from a list of optio
 
 ## Preview
 
-"![Alt Text](img/random_choice_picker.gif)"
+![Alt Text](img/random_choice_picker.gif)
 
 ## Features
 
